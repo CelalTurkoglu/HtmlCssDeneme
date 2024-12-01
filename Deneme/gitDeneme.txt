@@ -1,1 +1,2 @@
-git kullanımı için önemsiz bir deneme.
+git kullanımı için önemsiz bir deneme. 
+ikinci bir deneme yalandan .,.,.
