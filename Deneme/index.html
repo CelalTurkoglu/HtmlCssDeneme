@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celal Türkoğlu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="resim/icon.png" type="image/x-icon">
+
+    <style>
+        body{
+            background-color: 	#E1F5FE;
+            
+        }
+        .dropdown-item:hover {
+            background-color: 		#BBDEFB; /* Arka plan rengini burada değiştirin */
+            color: #01579B; /* Metin rengini de değiştirebilirsiniz */
+          }
+        .dropdown-item{
+            color: 	#E3F2FD;
+
+        }
+        .nav-item{
+            color: 	#E3F2FD;
+            
+        }
+        .card{
+            background-color: #aca290;
+            border: 4px solid  #272f1e;
+
+        }
+        .a{
+            font-size: xx-large;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            color: #01579B;
+
+        }
+        .card-group{
+            border-radius: 100px;
+            
+        }
+
+         /* Navbar toggler icon rengini özelleştirme */
+  .custom-toggler .navbar-toggler-icon {
+    background-image: none; /* Varsayılan arka planı kaldır */
+    width: 30px;
+    height: 3px;
+    background-color: #E1F5FE; /* Orta çizgi rengi */
+    position: relative;
+  }
+
+  .custom-toggler .navbar-toggler-icon::before,
+  .custom-toggler .navbar-toggler-icon::after {
+    content: '';
+    background-color: #E1F5FE; /* Çizgilerin rengi */
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease; /* Eğer animasyon istiyorsanız */
+  }
+
+  /* Üst çizgi */
+  .custom-toggler .navbar-toggler-icon::before {
+    top: -8px; /* Üst çizginin pozisyonu */
+  }
+
+  /* Alt çizgi */
+  .custom-toggler .navbar-toggler-icon::after {
+    top: 8px; /* Alt çizginin pozisyonu */
+  }
+
+  /* Çizgileri ortalamak için ekleme */
+  .custom-toggler .navbar-toggler {
+    padding: 0; /* Buton içindeki boşlukları sıfırla */
+    display: flex; 
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Yatayda ortala */
+  }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container" style="background-color: 	#E1F5FE">
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: #01579B; color:#E1F5FE;" >
+            <a class="navbar-brand" href="http://127.0.0.1:5500/Deneme/index.html#" style="color: #E1F5FE;">
+              CT  <i class="fa-solid fa-laptop"></i> 
+            </a>
+            <div style="border:0px solid #01579B;border-radius:3px;">
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+              </div>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: #E1F5FE;">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active" >
+              <a class="nav-link" style="color:#E3F2FD;" href="https://github.com/CelalTurkoglu" target="_blank">Github<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:#E3F2FD;" href="https://www.linkedin.com/in/celal-t%C3%BCrko%C4%9Flu-394678297/" target="_blank">Linkedin</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" style="color:#E3F2FD;" role="button" data-toggle="dropdown" aria-expanded="false">
+                Sosyal Medya
+              </a>
+              <div class="dropdown-menu" style="background-color: #01579B;">
+                <a class="dropdown-item" href="https://www.instagram.com/celalturkoglu15/" target="_blank">İnstagram</a>
+                <a class="dropdown-item" href="https://www.youtube.com/@%C4%B0ppothebulluk" target="_blank">Youtube</a>
+                <div class="dropdown-divider" style="color: #E3F2FD;"></div>
+                <a class="dropdown-item" href="http://127.0.0.1:5500/Deneme/doffy.html">Kurusıkı Doffy</a>
+              </div>
+            </li>
+        </ul> 
+            </div>
+      </nav>
+
+
+
+      <!--ALT KISIM İLK 2 KART-->
+
+
+      <div class="row" style="margin-top: 61px;">
+        <div class="col-md-6 mb-3">
+          <div class="card" style="border-radius: 10px; border: 3px solid #01579B; background-color: 	#BBDEFB;">
+            <img src="celal.png" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #01579B;">Celal Türkoğlu</h5>
+              <p class="card-text" style="color: #01579B">Merhaba, benimle iletişime geçmek ve engin bilgilerimden yararlanmak istiyorsan yukarıdaki bağlantılardan bana ulaşabilirsin.</p>
+              <p class="card-text" style="color: #1565C0;"><small>Sen kimsin diyorsan aşağıdaki ya da yandaki karta tıklayarak CV'me ulaşabilirsin.</small></p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-6 mb-3">
+          <div class="card" style="border-radius: 10px; border: 3px solid #01579B; background-color: 		#BBDEFB; height: 483px;">
+            <img src="celal2.png" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #272f1e;"></h5>
+              <p class="card-text" style="color: #272f1e;"><a href="https://www.google.com/search?sca_esv=44a81bd77c38e347&sca_upv=1&sxsrf=ADLYWILDt2MYUkAqCpD6f2gvvSq2dogbkA:1727211512687&q=cv+haz%C4%B1rlama&udm=2&fbs=AEQNm0CgMcZ11KbHg1uunEmuo39LYaLxf_n_v5Qu9vkTINnKPNxSSRV--bGiJa6CXOAP_uiHPbLwpiGDt9Ut9ZZcy-dTArx46dxZPYs6Cw_4Gc-jLRP7UXkk6lytCQVbkF4K4_iEZuZNhju1DQCEXTM7VVZ5exp34aaCZMvxFQWFtbK5bK6KTSBSwZcuTOz3axiThd23cLLgSgmvhDk2KsWulqGytZZubw&sa=X&ved=2ahUKEwi_ramlvNyIAxUOc_EDHWRmD20QtKgLegQIGhAB&biw=1470&bih=727&dpr=2" style="color: #01579B;" class="a">Celal Türkoğlu CV için tıkla.</a></p>
+              <p class="card-text" style="color: #272f1e;"><small></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 3. KISIM -->
+
+      <div class="alert"  style="background-color: #BBDEFB; color:#01579B; border: 3px solid #01579B" role="alert">
+        Aşağıdaki formu doldurursan seninle iletişime geçerim.
+      </div>
+
+      <!-- 4. KISIM -->
+      <div class="row">
+        <!-- Form Alanı -->
+        <div class="col-md-6 mb-3">
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="İsim Soyisim">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="E-mail">
+              </div>
+            </div>
+            <div class="form-group mt-2">
+              <label for="inputState"></label>
+              <select id="inputState" class="form-control">
+                <option selected>Şehir seçiniz...</option>
+                <option>Ankara</option>
+                <option>Konya</option>
+                <option>Samsun</option>
+                <option>Ordu</option>
+                <option>Trabzon</option>
+                <option>Karabük</option>
+                <option>Düzce</option>
+              </select>
+            </div>
+            <div >
+                <div  style="margin-top: 5px; margin-left: 29px ">
+                    <label class="sr-only" for="inlineFormInputGroup">İnstagram</label>
+                    <div class="input-group mb-2" style="margin-left: -29px;">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text" style="margin-top: 26px;" >@</div>
+                      </div>
+                      <input type="text" style="margin-top: 26px;" class="form-control" id="inlineFormInputGroup" placeholder="İnstagram Nickiniz">
+                      <div class="form-group col-md-6 col-6" >
+                        <label for="formControlRange" style="color: #01579B;">Ne kadar zenginsin ?</label>
+                        <input type="range" class="form-control-range" id="formControlRange">
+                      </div>
+                      
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="form-group mt-3">
+              <label for="validationTextarea" style="color: #01579B;">Mesaj Alanı</label>
+              <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Doldurması zorunlu mesaj alanı." required></textarea>
+              <div class="invalid-feedback" style="color: #90CAF9;">
+                Sorununu öğrenmem için bu kısmı doldur!
+              </div>
+            </div>
+            <button class="btn btn-primary col-md-4 col-4 mt-3" type="submit">Submit form</button>
+          </form>
+        </div>
+    
+        <!-- Kart Alanı -->
+        <div class="col-md-6 mb-3">
+          <div class="card" style="border-radius: 10px; border: 3px solid #01579B; background-color: #BBDEFB;">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #01579B;">HTML5 CSS BOOTSTRAP</h5>
+              <p class="card-text" style="color: #01579B;">Github hesabıma bakarsan HTML CSS BOOTSTRAP dökümanlarıma, ayrıca ilgileniyorsan C hakkında da kaynağa ulaşabilirsin. </p>
+              <p class="card-text" style="color: #1565C0;"><small>İşte aşağıda bu sitenin kodları.</small></p>
+            </div>
+            <img src="resim.png" class="card-img-bottom" alt="...">
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- YAZI ALANI -->
+
+      <h3 style="color: #01579B;">Hakkımda Bilgiler:</h3>
+      <h6 style="text-indent: 45px;color: #01579B;">2004 yılında Samsunda doğdum; ilk, orta ve lise öğretimimi aynı şehirde tamamladım. 2022 yılında hala okuyor olduğum Karabük Üniversitesi Bilgisayar Mühendisliği bölümüne başladım.
+       2022-2023 yıllarında Karabük Üniversitesi'nin de yardımıyla İngilizce seviyemi B2 kuruna kadar çıkardım.
+        2023 yılında C diliyle öğrenmeye başladım, 2024 yılında HTML, CSS, BOOTSTRAP, JAVASCRIPT, C++ ve Git öğrenerek kendime değer kattım.
+        10 yıl lisanslı olarak farklı liglerde basketbol oynadım, çeşitli sektörlerde de çalışarak fiziksel olduğu gibi sosyal becerilerimi de geliştirmeye çalıştım.
+      </h6>
+
+
+      <div class="row">
+        <!-- Liste Bölümü -->
+        <div class="col-md-3 col-12" style="margin-left: -16px; height: auto;">
+          <ul class="list-group" style="color: #01579B; margin-left: 14px;">
+            <li class="list-group-item">C</li>
+            <li class="list-group-item">HTML5</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">BOOTSTRAP</li>
+            <li class="list-group-item">JAVASCRIPT</li>
+            <li class="list-group-item">C++</li>
+            <li class="list-group-item">B2 ENGLISH</li>
+            <li class="list-group-item">GIT</li>
+          </ul>
+        </div>
+    
+        <!-- Paragraf Bölümü -->
+        <div class="col-md-9 col-12 clearfix">
+          <p style="text-indent: 45px; color: #01579B;">  
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem molestias error facere quasi cupiditate. Error exercitationem unde ipsam nam, reprehenderit aliquam non magnam in, necessitatibus est repudiandae possimus. Consequuntur aspernatur dolorum sunt, repudiandae dolorem distinctio odit quae labore accusantium quod vero amet at eos laboriosam dolore! Deleniti iste distinctio sit blanditiis fuga molestiae veritatis magnam odit debitis sed architecto provident alias excepturi pariatur, aperiam cupiditate aliquam iure in quaerat? Unde laboriosam, illo et sapiente voluptatum quos aliquid nisi asperiores atque ratione. Sunt quis, necessitatibus asperiores harum explicabo quo facere rem nemo itaque numquam voluptatum! Ea commodi necessitatibus accusantium impedit cumque praesentium quibusdam maxime non quis nam optio voluptas eligendi sapiente corrupti, tempore exercitationem sed ullam libero atque ducimus magni soluta autem accusamus excepturi. Nam officia consequuntur suscipit tempora neque harum deserunt? Minima atque voluptates recusandae quis quasi. In delectus itaque architecto porro ut harum iure, autem possimus iusto assumenda debitis quas officiis asperiores obcaecati at voluptate enim nam dolores, perferendis, inventore nostrum distinctio cum mollitia accusantium. Deserunt nostrum omnis doloremque cumque ab, aperiam error qui tempora accusantium ex quisquam excepturi est exercitationem ipsam consequatur ut! Qui magnam obcaecati eius accusamus placeat vero ipsa autem odit mollitia? Asperiores totam assumenda illum earum aliquid quod architecto iste nobis porro, aliquam dolores magni maxime distinctio sit animi recusandae. Nesciunt, fugit. Ipsa fugiat repellat laboriosam iste. Accusantium, tempora dolore doloribus consequatur inventore ipsum ex illum non pariatur eius asperiores sit quasi voluptates 
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p style=" color: #01579B; margin-top:-16px">
+            <!-- Paragrafın kalan kısmı burada devam eder -->
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur iste deleniti delectus, tempora nulla velit totam, cum omnis provident beatae ab itaque quas quos ullam nemo nostrum. Dolores accusamus recusandae culpa corrupti officia doloribus rerum ad debitis nemo unde labore cupiditate impedit quo amet quisquam quibusdam, omnis consequuntur expedita excepturi velit necessitatibus consequatur voluptas! Nesciunt rerum deleniti aliquam ipsam sunt quae quia, nisi asperiores accusantium reiciendis! Hic sit provident itaque eos, vitae alias architecto, accusantium eveniet laudantium eius pariatur corporis, quisquam quibusdam iusto distinctio error rem nisi quas ipsa aperiam doloremque similique cupiditate quaerat. Quia ullam similique dolore, blanditiis ea ab facilis sed iste nostrum officiis maxime, labore error possimus tempore, illo sit reprehenderit culpa neque? Vel sit voluptas, ipsam, odit accusantium porro saepe temporibus odio inventore rerum cum aut perferendis. Sint quas aspernatur eum. Quidem unde quae labore recusandae laborum accusantium explicabo provident delectus! Sapiente, ducimus. In, ab earum?
+          </p>
+        </div>
+      </div>   
+
+      <br>
+      <br>
+
+
+
+      <!-- SLIDER -->
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+
+
+        </ol>
+        <div class="carousel-inner" style="margin-top: -40px;">
+          <div class="carousel-item active">
+            <img src="resim/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="resim/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="resim/3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="resim/4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="resim/5.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="resim/6.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+      
+      
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh; margin-top: -80px; margin-bottom: -80px;">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
+          <div class="carousel-inner" style="width: 250px;">
+            <div class="carousel-item active">
+              <img src="resim/88.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- Son resim -->
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="resim/7.jpeg" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+      </div>
+
+      <h1 style="text-align: center;color:#01579B">Site Bitti Ben Gidiyorum.</h1>
+
+
+
+
+
+    </div>
+    
+
+    <div style="background-color: #01579B; height: 700px;  padding-bottom: 50px;">
+        <h2 style="text-align: center; padding-top:661px;color:#BBDEFB">Game Over</h2>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
